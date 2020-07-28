@@ -1,0 +1,13 @@
+{
+  "name": "c_j_visions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass bs4/style.scss css/style.css -w",
+    "bs4": "node-sass bs4/bootstrap.scss css/bootstrap.css -w",
+    "build": "npm-run-all --parallel css bs4"
+  },
+  "author": "",
+  "license": "MIT"
+}
